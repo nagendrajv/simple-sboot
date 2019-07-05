@@ -11,6 +11,5 @@ pipeline {
         stage('Deploy') {
             sh '/Users/njalapati/develop/Resources/Maven/bin/mvn spring-boot:run'
         }
-
     }
 }
